@@ -1,7 +1,7 @@
 body {
     margin: 0;
 
-    background-image: url(./assets/rocket.png);
+    background-image: url('./assets/rocket.png');
     background-size: cover;
     background-position: center 0;
     background-repeat: repeat;
