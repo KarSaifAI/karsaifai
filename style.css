@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+
+    background-image: url(./assets/rocket.png);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    scroll-behavior: smooth;
+    transition: background-position 0.1s ease-out;
+    text-align: center;
+    padding: 50px;
+  }
+
+img {
+    display:block;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 32px;
+}
+
+.titulo {
+    font-family: "Libre Baskerville", sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-top: 250px;
+    font-size: 64px;
+}
+
+.subtitulo {
+    font-family: "Coda", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 140px;
+    font-size: 48px;
+}
+
+.parrafo {
+    color: brown;
+}
+
+.boton {
+    background-color: white;
+    color: black;
+    border: none;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 29px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #5362f4;
+}
+
+.contenedor-cajas {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.caja {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s ease-out;
+    background-color: #5362f4;
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.caja.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.caja:hover {
+    transform: scale(1.10);
+}
+
+.titulo-cajas {
+    font-family: "Commisioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slint" 0, "FLAR" 0, "VOLM" 0;
+    font-size: 20px;
+}
+
+.texto-cajas {
+    font-family: "Commisioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slint" 0, "FLAR" 0, "VOLM" 0;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
