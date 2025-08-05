@@ -1,0 +1,590 @@
+body {
+    background-color: #18146F;
+    color: white;
+    font-family: 'Inter', Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between the logo and buttons */
+}
+
+.logo {
+    width: 224px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px; /* Add spacing between buttons */
+}
+
+button {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-buttons button {
+    background: none; /* Remove background */
+    color: white; /* Set text color to white */
+    padding: 0; /* Remove padding */
+    text-decoration: none; /* No underlining by default */
+}
+
+.nav-buttons button:hover {
+    color: #ccc; /* Change text color on hover */
+    text-decoration: underline; /* Add underlining on hover */
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 200px;
+}
+
+h2 {
+    color: #FFF;
+    text-align: left;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 200px;
+}
+
+.main-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 5%; /* Reduced margin to move the title higher */
+}
+
+.plans-button {
+    background-color: #4F7CE7;
+    color: #FFF;
+    text-align: center;
+    border-radius: 70px;
+    padding: 20px 20px;
+    margin-top: 15px; /* Adjusted spacing between the title and the button */
+    display: inline-block;
+}
+
+.plans-button:hover {
+    background-color: #3A63C7; /* Slightly darker shade for hover effect */
+}
+
+.time-money-section {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;;
+    gap: 140px;
+    margin-top: 50px; /* Add spacing from the previous section */
+    margin-bottom: -70px;;
+}
+
+.time-money-section-2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 0px;
+    justify-content: center;
+    margin-bottom: -100px;
+}
+
+.time-money-section-reverse {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 50px;         /* Igual que las otras secciones */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 481px;
+}
+
+
+.section-text {
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 435px;
+    height: 205px;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.section-text-reverse{
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 435px;
+    height: 205px;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.icon-box {
+    display: flex;
+    width: 400px;
+    height: 435px;
+    padding: 23px 90px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0.75;
+    background: rgba(79, 124, 231, 0.80);
+}
+
+.icon-box svg {
+    width: 255px;
+    height: 255px;
+    flex-shrink: 0;
+    stroke-width: 10px;
+    stroke: #FFF;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 50px; /* Add spacing above the icon */
+    gap: 20px; /* Add spacing between the icon and the text */
+}
+
+.icon-container svg {
+    width: 308.125px;
+    height: 346.641px;
+    flex-shrink: 0;
+    stroke-width: 10px;
+    stroke: #FFF;
+}
+
+.icon-title {
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.custom-rectangle {
+    display: flex;
+    flex-direction: column;
+    width: 930px;
+    height: 1000px;
+    padding: 57px 135px;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(83, 98, 244, 0.75) 0%, rgba(83, 98, 244, 0.00) 100%);
+    margin: 40px auto 0 auto;
+}
+
+.custom-rectangle-titles {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 79px;
+    gap: 288px;
+    width: 100%;
+    margin-bottom: 0px;
+    /* Remove previous padding */
+    box-sizing: border-box;
+}
+
+.custom-rectangle-title {
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: none;
+    margin: 0;
+    text-align: left;
+    min-width: 250px;
+    width: 250px;
+    box-sizing: border-box;
+    /* Add same left padding as .custom-rectangle-list */
+    padding-left: 0px;
+}
+
+.custom-rectangle-columns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 220px;
+    width: 100%;
+    margin-bottom: 0px; /* Change this to reduce space below the text */
+}
+
+.custom-rectangle-list {
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+    min-width: 250px;
+}
+
+.custom-rectangle-img-large {
+    border-radius: 10px;
+    width: 1200px;
+    height: 1200px;
+    object-fit: contain;
+    margin-top: -130px; /* Use a negative margin to bring the image closer */
+    opacity: 0.7;
+}
+
+.custom-rectangle-bottom {
+    border-radius: 10px;
+    background: linear-gradient(100deg, #269DFE -7.72%, #5362F4 92.24%);
+    height: 400px;
+    width: 1200px;
+    margin: 270px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-rectangle-bottom-title {
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 0 30px 0; /* Add space below the title */
+    position: static;
+    top: auto;
+    transform: none;
+}
+
+.custom-rectangle-bottom-btn {
+    display: inline-flex;
+    height: 80px;
+    padding: 40px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #000;
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    position: static;
+    left: auto;
+    transform: none;
+}
+
+.custom-footer {
+    width: 100%;
+    background: #18146F;
+    padding: 60px 0 40px 0;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 120px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 60px 0 0;
+    min-width: 120px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.footer-contact-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.footer-btn {
+    background: none;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0 2px 0;
+    transition: text-decoration 0.2s;
+}
+
+.footer-btn:hover {
+    text-decoration: underline;
+}
+
+.footer-email-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.ellipse-bg {
+    position: absolute;
+    top: -900px;
+    right: -900px;
+    width: 1450px;
+    height: 1450px;
+    flex-shrink: 0;
+    border-radius: 1450px;
+    background: rgba(139, 77, 140, 0.5);
+    filter: blur(176.25px);
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.ellipse-bg-left {
+    position: absolute;
+    top: 1000px;
+    left: -700px;
+    width: 900px;
+    height: 900px;
+    border-radius: 900px;
+    background: #d7257261;
+    filter: blur(120px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.ellipse-bg-right {
+    position: absolute;
+    top: 1800px;
+    right: -500px;
+    width: 900px;
+    height: 900px;
+    border-radius: 900px;
+    background: #bd28f461;
+    filter: blur(120px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.ellipse-bg-left-2 {
+    position: absolute;
+    top: 2700px;
+    left: -700px;
+    width: 900px;
+    height: 900px;
+    border-radius: 900px;
+    background: #1ddbf061;
+    filter: blur(120px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.ellipse-bg-right-2 {
+    position: absolute;
+    top: 4000px;
+    right: -700px;
+    width: 900px;
+    height: 900px;
+    border-radius: 900px;
+    background: #ff27d061;
+    filter: blur(120px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+[data-aos] {
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .body{
+        width: 100vw;
+    }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  h1.main-title {
+    font-size: 42px;
+    margin-top: 120px;
+    padding: 0 20px;
+  }
+
+  .plans-button {
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+.time-money-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -30%;
+}
+
+.time-money-section-reverse{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -30%;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+    max-width: 90vw;
+    max-height: 90vw;
+    margin-bottom: -47%;
+    max-width: 100%;
+    width: 80vw;
+    max-height: 100%;
+    height: 80vw;
+    padding: 10%;
+    box-sizing: border-box;
+    margin-left: -36%;
+}
+
+.icon-box svg {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* Título */
+.h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left; 
+  width: 70vw;
+}
+
+/* Texto */
+.section-text {
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: -15%;
+  max-width: 70vw;
+}
+
+}
